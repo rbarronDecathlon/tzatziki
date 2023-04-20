@@ -15,6 +15,7 @@ import java.util.Objects;
 import java.util.function.Predicate;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.cache.Cache;
 import org.springframework.cache.CacheManager;
